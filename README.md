@@ -1,4 +1,6 @@
 # wsl_dev_env wsl ubuntu開發環境
+###### 不需要於windows安裝docker desktop
+###### can run docker on wls without docker desktop
 
 ## step1 將wsl設定完成 config ur system
 
