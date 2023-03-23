@@ -1,12 +1,12 @@
 # wsl_dev_env wsl ubuntu開發環境
 
-step1 將wsl設定完成 config ur system
+## step1 將wsl設定完成 config ur system
 
 ![image](https://user-images.githubusercontent.com/78014702/227117027-ec4179e2-12dc-4d59-84e9-4c738aeaa3a1.png)
 
 
-step2 執行下面的script 將會安裝maven、git、nodejs、npm、yarn、docker、docker compose 並且於最後切換alternatives為手動(輸入1)
-Executing the following script will install Maven, Git, Node.js, npm, Yarn, Docker, and Docker Compose. At the end, it will switch alternatives to manual mode (enter 1).
+## step2 執行下面的script 將會安裝maven、git、nodejs、npm、yarn、docker、docker compose 並且於最後切換alternatives為手動(輸入1)
+### Executing the following script will install Maven, Git, Node.js, npm, Yarn, Docker, and Docker Compose. At the end, it will switch alternatives to manual mode (enter 1).
 
 ```bash
 sudo apt update -y
@@ -32,11 +32,12 @@ sudo update-alternatives --config iptables
 ```
 ![image](https://user-images.githubusercontent.com/78014702/227119171-db253795-0355-4cb6-a03c-2087adf7df02.png)
 
-step3 啟用systemd/active systemd
+## step3 啟用systemd
+### active systemd
 ```bash
 sudo -e /etc/wsl.conf
 ```
-step4 貼上儲存/paste ctrl+O ctrl+X
+## step4 貼上儲存/paste ctrl+O ctrl+X
 
 ```bash
 [automount]
@@ -46,14 +47,16 @@ mountFsTab = true
 systemd=true
 command=sudo service docker start
 ```
-step5 退出wsl 重啟/wsl restart wsl
+## step5 退出wsl 重啟wsl 
+### restart wsl
 ```bash
 exit or logout
 ```
 ```bash
 wsl.exe --shutdown
 ```
-step6 執行下面的script/Executing the following script
+## step6 執行下面的script
+### Executing the following script
 ```bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
@@ -64,7 +67,8 @@ sudo systemctl enable containerd.service
 sudo /lib/systemd/systemd-sysv-install enable docker
 sudo service docker start
 ```
-step7 測試/test
+## step7 測試
+### test
 ```bash
 docker run hello-world
 ```
