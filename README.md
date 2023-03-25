@@ -17,14 +17,7 @@ https://github.com/tibame201020/dockerImages
 ```bash
 sudo apt update -y
 sudo apt-get update -y
-sudo apt install maven -y
-sudo apt install git -y
 sudo apt install curl -y
-sudo curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get install -y Node.js
-sudo apt install npm -y
-sudo apt install yarn -y
-
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
@@ -66,7 +59,6 @@ wsl.exe --shutdown
 ```bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
-sudo usermod -aG docker user
 sudo /lib/systemd/systemd-sysv-install enable docker
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
@@ -79,5 +71,25 @@ sudo service docker start
 docker run hello-world
 ```
 ![image](https://user-images.githubusercontent.com/78014702/227119127-4b5083ee-0155-4db9-9829-0532b449d13f.png)
+
+## external 使用ip連到wsl
+### use ip connect wsl (ssh/sftp)
+```bash
+sudo apt install openssh-server -y
+sudo service ssh start
+hostname -I
+```
+
+## external wsl環境
+### wsl env
+```bash
+sudo apt install maven -y
+sudo apt install git -y
+sudo apt install curl -y
+sudo curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y Node.js
+sudo apt install npm -y
+sudo apt install yarn -y
+```
 
 
