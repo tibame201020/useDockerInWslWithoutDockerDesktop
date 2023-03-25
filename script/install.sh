@@ -17,5 +17,3 @@ sudo sh -c "echo 'mountFsTab = true' >> /etc/wsl.conf"
 sudo sh -c "echo '[boot]' >> /etc/wsl.conf"
 sudo sh -c "echo 'systemd=true' >> /etc/wsl.conf"
 sudo sh -c "echo 'command=sudo service docker start' >> /etc/wsl.conf"
-
-logout
