@@ -11,8 +11,8 @@ https://github.com/tibame201020/dockerImages
 ![image](https://user-images.githubusercontent.com/78014702/227117027-ec4179e2-12dc-4d59-84e9-4c738aeaa3a1.png)
 
 
-## step2 執行下面的script 將會安裝maven、git、nodejs、npm、yarn、docker、docker compose 並且於最後切換alternatives為手動(輸入1)
-### Executing the following script will install Maven, Git, Node.js, npm, Yarn, Docker, and Docker Compose. At the end, it will switch alternatives to manual mode (enter 1).
+## step2 執行下面的script 將會安docker、docker compose 並且於最後切換alternatives為手動(輸入1)
+### Executing the following script will install Docker, and Docker Compose. At the end, it will switch alternatives to manual mode (enter 1).
 
 ```bash
 sudo apt update -y
