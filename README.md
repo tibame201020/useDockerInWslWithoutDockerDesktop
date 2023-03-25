@@ -26,6 +26,20 @@ sudo apt-get update && sudo apt-get install docker-compose-plugin -y
 sudo update-alternatives --config iptables
 
 ```
+or
+```bash
+sudo apt update -y
+sudo apt-get update -y
+sudo apt install curl -y
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker $USER
+sudo apt-get update && sudo apt-get install docker-compose-plugin -y
+
+echo "1" | sudo update-alternatives --config iptables
+echo "1" | sudo update-alternatives --config iptables
+```
+
 ![image](https://user-images.githubusercontent.com/78014702/227119171-db253795-0355-4cb6-a03c-2087adf7df02.png)
 
 ## step3 啟用systemd
