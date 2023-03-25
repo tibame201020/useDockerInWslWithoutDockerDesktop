@@ -1,3 +1,6 @@
+# example
+https://www.youtube.com/watch?v=7r1k-hJ_mo0
+
 # wsl_dev_env wsl ubuntu開發環境
 
 # develop docker images
