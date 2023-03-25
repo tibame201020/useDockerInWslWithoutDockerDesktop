@@ -1,6 +1,3 @@
-sudo sh -c "cd ~"
-sudo sh -c "mkdir docker-env"
-sudo sh -c "cd docker-env"
 sudo apt update
 sudo apt install -y curl
 curl -fsSL https://get.docker.com -o get-docker.sh
