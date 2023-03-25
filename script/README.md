@@ -1,3 +1,6 @@
+# example
+https://www.youtube.com/watch?v=NdE1NeNxIqk
+
 # use script
 ```bash
 sudo apt install git -y
