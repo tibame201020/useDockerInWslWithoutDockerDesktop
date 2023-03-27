@@ -1,3 +1,5 @@
+# 不需要於windows安裝docker desktop
+# can run docker on wls without docker desktop
 # example
 https://www.youtube.com/watch?v=7r1k-hJ_mo0
 
@@ -5,9 +7,6 @@ https://www.youtube.com/watch?v=7r1k-hJ_mo0
 
 # develop docker images
 https://github.com/tibame201020/dockerImages
-
-###### 不需要於windows安裝docker desktop
-###### can run docker on wls without docker desktop
 
 ## step1 將wsl設定完成 config ur system
 
