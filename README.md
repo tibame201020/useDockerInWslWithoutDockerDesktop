@@ -1,5 +1,5 @@
 # 不需要於windows安裝docker desktop
-# can run docker on wls without docker desktop
+# can run docker on wsl without docker desktop
 # example
 https://www.youtube.com/watch?v=7r1k-hJ_mo0
 
