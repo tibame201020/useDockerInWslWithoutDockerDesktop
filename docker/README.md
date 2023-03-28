@@ -25,7 +25,7 @@ wsl --shutdown
 wsl
 ```
 ```bash
-cd ~/wsl_dev_env/script
+cd ~/wsl_dev_env/docker
 ```
 ```bash
 sh enable.sh
