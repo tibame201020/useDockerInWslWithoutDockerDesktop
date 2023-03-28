@@ -1,4 +1,4 @@
-### use script
+# use script
 ```bash
 git clone https://github.com/tibame201020/wsl_dev_env
 ```
@@ -10,7 +10,7 @@ cd wsl_dev_env/minikube
 sh install.sh
 ```
 
-### install steps
+# manual install steps
 #### install kubectl
 ```bash
 sudo apt-get update && sudo apt-get install -y apt-transport-https
