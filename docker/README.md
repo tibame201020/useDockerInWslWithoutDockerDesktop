@@ -9,7 +9,7 @@ sudo apt install git -y
 git clone https://github.com/tibame201020/wsl_dev_env
 ```
 ```bash
-cd wsl_dev_env/script
+cd wsl_dev_env/docker
 ```
 ```bash
 sh install.sh
