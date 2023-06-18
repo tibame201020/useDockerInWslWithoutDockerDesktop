@@ -57,7 +57,7 @@ enabled = true
 mountFsTab = true
 [boot]
 systemd=true
-command=sudo service docker start
+command=sudo systemctl start docker
 ```
 ## step5 退出wsl 重啟wsl 
 ### restart wsl
